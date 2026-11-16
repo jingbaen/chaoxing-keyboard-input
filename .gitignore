@@ -1,0 +1,34 @@
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.local.*
+local-settings.json
+settings-export*.json
+# Personal material and generated files
+*.log
+*.zip
+*.crx
+*.har
+__pycache__/
+node_modules/
+artifacts/
+输出/
+下载/
+课程材料/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local release/audit material must never enter the repository
+本地核验/
+本地核验记录.md
+审查修复记录.md
+发布清单.json
+发布压缩包/
+原件校验基线.json
+scan-results.json
+test-results.json
